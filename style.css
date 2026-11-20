@@ -9,4 +9,36 @@
     padding: 15px;
 }
 
-/card
+.card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #fff;
+    border: 2px solid #6a9cff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #6a9cff;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.2;
+    max-width: 90px;
+}
+
+.card:nth-child(1) .text { padding: 25px 0; }
+.card:nth-child(2) .text { padding: 0; }
+.card:nth-child(3) .text { padding: 45px 0; }
