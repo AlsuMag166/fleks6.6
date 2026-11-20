@@ -1,0 +1,11 @@
+.parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    height: 220px;
+    background: #eef;
+    border: 2px dashed #88f;
+    padding: 15px;
+}
+
